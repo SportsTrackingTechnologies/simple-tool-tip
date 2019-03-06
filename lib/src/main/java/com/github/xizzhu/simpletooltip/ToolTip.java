@@ -18,11 +18,11 @@ package com.github.xizzhu.simpletooltip;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.support.annotation.ColorInt;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
 import android.view.Gravity;
+import androidx.annotation.ColorInt;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
 
 public class ToolTip {
     @StringRes
@@ -161,7 +161,7 @@ public class ToolTip {
         }
 
         /**
-         * Sets the text gravity of the tool tip. The default value is {@link Gravity.NO_GRAVITY}.
+         * Sets the text gravity of the tool tip
          */
         public Builder withTextGravity(int gravity) {
             this.textGravity = gravity;
@@ -185,7 +185,7 @@ public class ToolTip {
         }
 
         /**
-         * Sets the typeface for the tool tip. The default value is {@link Typeface.DEFAULT}.
+         * Sets the typeface for the tool tip
          */
         public Builder withTypeface(Typeface typeface) {
             if (typeface != null) {
@@ -195,7 +195,7 @@ public class ToolTip {
         }
 
         /**
-         * Sets the typeface style for the tool tip. The default value is {@link Typeface.NORMAL}.
+         * Sets the typeface style for the tool tip
          */
         public Builder withTypefaceStyle(int style) {
             this.typefaceStyle = style;
