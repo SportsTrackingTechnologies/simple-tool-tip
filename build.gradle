@@ -30,7 +30,7 @@ ext {
     annotationVersion = "1.0.0"
     appcompatVersion = "1.0.2"
 
-    minSdkVersion = 8
+    minSdkVersion = 14
     targetSdkVersion = 28
 
     versionName = '1.0.0'
